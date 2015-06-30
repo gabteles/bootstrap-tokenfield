@@ -1,0 +1,21 @@
+{
+    "name": "gabteles/bootstrap-tokenfield",
+    "description": "Implements Tokenfield for Bootstrap in Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["gab","extension","bootstrap","tokenfield"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gabriel Teles",
+            "email": "gab.teles@hotmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "gabteles\\bootstrap\\tokenfield\\": ""
+        }
+    }
+}
