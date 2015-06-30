@@ -4,8 +4,8 @@ namespace gabteles\bootstrap\tokenfield;
 
 use yii\web\AssetBundle;
 
-class BootstrapTokenfieldAsset extends AssetBundle {
-    //public $sourcePath = '';
+class TokenfieldAsset extends AssetBundle {
+    public $sourcePath = '';
     
 	public $css = [
         'css/bootstrap-tokenfield.min.css',
@@ -23,7 +23,7 @@ class BootstrapTokenfieldAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->setSourcePath(__DIR__ . '/assets');
+        $this->sourcePath = __DIR__ . '/assets';
         parent::init();
     }
 }
