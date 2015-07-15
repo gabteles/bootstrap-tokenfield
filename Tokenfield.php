@@ -63,7 +63,7 @@ class Tokenfield extends InputWidget {
 		
 		// Not active record
         } else {
-			$val = (is_array($this->value) ? implode(',', $this->value) : $this->value);
+			$val = (is_array($this->value) ? implode(', ', $this->value) : $this->value);
 			echo Html::textInput($this->name, $val, $this->options);
         }
 		
