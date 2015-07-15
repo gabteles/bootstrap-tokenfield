@@ -53,7 +53,7 @@ class Tokenfield extends InputWidget {
 			// If overwriting the model value
 			if ($this->overwriteValue && $this->value) {
 				$name = Html::getInputName($this->model, $this->attribute);
-				$val = (is_array($this->value) ? implode(',', $this->value) : $this->value);
+				$val = (is_array($this->value) ? implode(', ', $this->value) : $this->value);
 				echo Html::textInput($name, $val, $this->options);
 			
 			// If normal model
